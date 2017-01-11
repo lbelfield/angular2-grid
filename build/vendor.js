@@ -6,4 +6,6 @@ require("@angular/core");
 require("zone.js");
 require("reflect-metadata");
 require("@angular/router");
+// import 'bootstrap/dist/js/bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css'; 
 //# sourceMappingURL=vendor.js.map

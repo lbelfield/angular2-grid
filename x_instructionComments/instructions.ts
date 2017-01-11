@@ -31,6 +31,7 @@ npm commands:
     npm install bootstrap --save-dev
     npm install html-loader --save-dev
     npm install html-webpack-plugin --save-dev
+    npm install css-loader style-loader url-loader file-loader  --save-dev
 
 
 

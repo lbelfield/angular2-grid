@@ -6,8 +6,10 @@ import { LocationStrategy, HashLocationStrategy} from '@angular/common';
 
 // bespoke components
 import AppComponent from "./app.component"; 
+import NavigationBarComponent from "./navigationBar/navigationBar.component";
 import ShowHideComponent from "./showHide/showHide.component";
 import WadupComponent from "./wadup/wadup.component";
+
 
 const appRoutes: Routes = [
         {path: "showHide", component: ShowHideComponent},
@@ -20,7 +22,7 @@ const appRoutes: Routes = [
   providers: [{provide: LocationStrategy, useClass : HashLocationStrategy }],
 
   //need to add every component to our declarations
-  declarations: [ AppComponent, ShowHideComponent, WadupComponent ],
+  declarations: [ AppComponent, NavigationBarComponent, ShowHideComponent, WadupComponent ],
 
   // our bootstrap is AppComponent
   bootstrap: [AppComponent] 

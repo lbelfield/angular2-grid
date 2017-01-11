@@ -10,7 +10,9 @@ import {Component} from "@angular/core";
     // Given this configuration, when the browser URL for this application becomes /showHide, 
     // the router matches that URL to the route path /showHide 
     // and displays the ShowHideComponent after a RouterOutlet that you've placed in the host view's HTML.
-    template: `<router-outlet></router-outlet>`   
+    template: `
+    <navigation-bar></navigation-bar>
+    <router-outlet></router-outlet>`   
 })
 
 // Class

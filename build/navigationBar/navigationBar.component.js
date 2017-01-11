@@ -12,21 +12,14 @@ var __decorate = undefined && undefined.__decorate || function (decorators, targ
         if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     }return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-// Import
-// importing Component from core
 var core_1 = require("@angular/core");
-// Decorator
-var AppComponent = function AppComponent() {
-    _classCallCheck(this, AppComponent);
+var NavigationBarComponent = function NavigationBarComponent() {
+    _classCallCheck(this, NavigationBarComponent);
 };
-AppComponent = __decorate([core_1.Component({
-    // the element defined in the index.html
-    selector: "my-app",
-    // Given this configuration, when the browser URL for this application becomes /showHide, 
-    // the router matches that URL to the route path /showHide 
-    // and displays the ShowHideComponent after a RouterOutlet that you've placed in the host view's HTML.
-    template: "\n    <navigation-bar></navigation-bar>\n    <router-outlet></router-outlet>"
-})], AppComponent);
+NavigationBarComponent = __decorate([core_1.Component({
+    selector: "navigation-bar",
+    templateUrl: "../../app/navigationBar/navigationBar.html"
+})], NavigationBarComponent);
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.default = NavigationBarComponent;
+//# sourceMappingURL=navigationBar.component.js.map
